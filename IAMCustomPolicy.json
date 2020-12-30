@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:GetPolicyVersion",
+                "iam:GetPolicy"
+            ],
+            "Resource": "arn:aws:iam::000111222333:policy/CrossAccountDashboardDiscoveryPolicy"
+        }
+    ]
+}

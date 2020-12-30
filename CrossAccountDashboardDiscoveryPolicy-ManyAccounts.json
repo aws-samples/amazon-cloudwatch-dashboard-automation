@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": [
+                "arn:aws:iam::012345678912:role/AllowMonitoringAccountAccess",
+                "arn:aws:iam::987654321012:role/AllowMonitoringAccountAccess",
+                "arn:aws:iam::123456789123:role/AllowMonitoringAccountAccess"
+            ]
+        }
+    ]
+}
