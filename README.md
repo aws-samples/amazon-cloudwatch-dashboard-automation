@@ -188,7 +188,7 @@ In this blog post, we walked through the steps to configure Amazon CloudWatch to
 
 After the solution has been deployed and all the resources we want to monitor have been tagged, here are two example CloudWatch dashboards:
 
-<img class="alignnone size-full wp-image-15855" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2020/12/31/CWDashboardExample1.png" alt="Figure 2: Example dashboard" width="1910" height="1910" />
+<img class="alignnone size-full wp-image-15855" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2020/12/31/CWDashboardExample1.png" alt="Figure 2: Example dashboard" width="3793" height="1910" />
 
 <em>Figure 2: Example dashboard</em>
 
@@ -198,14 +198,6 @@ After the solution has been deployed and all the resources we want to monitor ha
 
 <hr />
 
-&nbsp;
-<h3>About the Authors</h3>
-<img class="alignleft wp-image-453 size-thumbnail" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/01/Salman-Ahmed.png" alt="" width="150" height="150" />
-Salman Ahmed is a Technical Account Manager for AWS Enterprise Support. He has been working with cloud technologies for 10+ years. Salman works with Enterprise Support customers to help them with design, implementation and supporting cloud infrastructure.
-
-<img class="alignleft wp-image-453 size-thumbnail" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/01/Mike-Gomez.png" alt="" width="150" height="150" />
-Mike Gomez is an Enterprise Support Lead for AWS Enterprise Support.
-<div class="tag-list"></div>
 
 
 
