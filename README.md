@@ -202,20 +202,7 @@ After the solution has been deployed and all the resources we want to monitor ha
 <hr />
 
 &nbsp;
-<h3>About the Authors</h3>
-<img class="alignleft wp-image-453 size-thumbnail" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/01/Salman-Ahmed.png" alt="" width="150" height="150" />
-Salman Ahmed is a Technical Account Manager for AWS Enterprise Support. He has been working with cloud technologies for 10+ years. Salman works with Enterprise Support customers to help them with design, implementation and supporting cloud infrastructure.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-<img class="size-full wp-image-15885 alignleft" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/02/Mike-Gomez.png" alt="" width="166" height="207" />Mike Gomez is an Enterprise Support Lead for AWS Enterprise Support.
-<div class="tag-list"></div>
 
 
 
