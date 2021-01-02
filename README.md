@@ -69,14 +69,15 @@ Sign in to accounts X, Y, and Z and create an IAM role that allows the monitori
 </li>
 </ol>
 For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user.html">Creating a role to delegate permissions to an IAM user</a> in the IAM User Guide.
-<h2>Step 5: Create CrossAccountDashboardDiscoveryPolicy, CloudWatchDashboardCustomPolicy, and IAMCustomPolicy in the monitoring account</h2>
+<h2>Step 5: Create CrossAccountDashboardDiscoveryPolicy,  CloudWatchDashboardCustomPolicy, and IAMCustomPolicy in the monitoring account</h2>
 In this step, you create three IAM policies in the monitoring account. You attach these policies to the Lambda function in Step 6.
 
 To create <strong>CrossAccountDashboardDiscoveryPolicy</strong>:
 <ol>
  	<li>Sign in to the monitoring account.</li>
  	<li>In the IAM console, choose <strong>Policies</strong>, and then choose <strong>Create policy</strong>.</li>
- 	<li>Choose the JSON tab. Edit the following template with the ARNs you collected in Step 4.
+ 	<li>Choose the <strong>JSON</strong> tab.</li>
+ 	<li>Edit the following template with the ARNs you collected in Step 4.
 Here is an example policy for one account:
 <pre><code class="lang-json">{
     "Version": "2012-10-17",
@@ -116,7 +117,8 @@ To create the <strong>CloudWatchDashboardCustomPolicy</strong>:
 <ol>
  	<li>Sign in to the monitoring account.</li>
  	<li>In the IAM console, choose <strong>Policies</strong>, and then choose <strong>Create policy</strong>.</li>
- 	<li>Choose the <strong>JSON</strong> tab, and then paste the following template. Replace the placeholder account number with the account number for your monitoring account.
+ 	<li>Choose the <strong>JSON</strong> tab.</li>
+ 	<li>Edit the following template with the account number of your monitoring account and then paste it into the field on the JSON tab.
 <pre><code class="lang-json">{
     "Version": "2012-10-17",
     "Statement": [
@@ -136,8 +138,8 @@ For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGu
 To create the <strong>IAMCustomPolicy</strong>:
 <ol>
  	<li>Sign in to the monitoring account.</li>
- 	<li>In the IAM console, choose Policies, and then choose Create policy.</li>
- 	<li>Choose the JSON tab.</li>
+ 	<li>In the IAM console, choose <strong>Policies</strong>, and then choose <strong>Create policy</strong>.</li>
+ 	<li>Choose the <strong>JSON</strong> tab.</li>
  	<li>Edit the following template with the account number of your monitoring account and then paste it into the field on the JSON tab.
 <pre><code class="lang-json">{
     "Version": "2012-10-17",
@@ -189,16 +191,31 @@ In this blog post, we walked through the steps to configure Amazon CloudWatch to
 
 After the solution has been deployed and all the resources we want to monitor have been tagged, here are two example CloudWatch dashboards:
 
-<img class="alignnone size-full wp-image-15855" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2020/12/31/CWDashboardExample1.png" alt="Figure 2: Example dashboard" width="3793" height="1910" />
+<img class="alignnone size-full wp-image-15901" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/02/CWDashboardExample1-vertical.png" alt="CWDashboardExample1" width="1895" height="1877" />
 
 <em>Figure 2: Example dashboard</em>
 
-<img class="alignnone size-full wp-image-15856" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2020/12/31/CWDashboardExample2.png" alt="Figure 3: Second example dashboard" width="3793" height="1810" />
+<img class="alignnone size-full wp-image-15902" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/02/CWDashboardExample2-vertical.png" alt="CWDashboardExample2" width="1889" height="1900" />
 
 <em>Figure 3: Second example dashboard</em>
 
 <hr />
 
+&nbsp;
+<h3>About the Authors</h3>
+<img class="alignleft wp-image-453 size-thumbnail" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/01/Salman-Ahmed.png" alt="" width="150" height="150" />
+Salman Ahmed is a Technical Account Manager for AWS Enterprise Support. He has been working with cloud technologies for 10+ years. Salman works with Enterprise Support customers to help them with design, implementation and supporting cloud infrastructure.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+<img class="size-full wp-image-15885 alignleft" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/02/Mike-Gomez.png" alt="" width="166" height="207" />Mike Gomez is an Enterprise Support Lead for AWS Enterprise Support.
+<div class="tag-list"></div>
 
 
 
