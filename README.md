@@ -205,11 +205,6 @@ After the solution has been deployed and all the resources we want to monitor ha
 <hr />
 
 &nbsp;
-<h3>About the Authors</h3>
-<img class="alignleft wp-image-453 size-thumbnail" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/01/Salman-Ahmed.png" alt="" width="150" height="150" />
-
-&nbsp;
-
 
 ## Security
 
