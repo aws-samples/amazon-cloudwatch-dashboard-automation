@@ -1,5 +1,5 @@
 <h2><strong>Amazon CloudWatch Dashboard Automation</strong></h2>
-​<a href="https://aws.amazon.com/blogs/aws/cloudwatch-dashboards-create-use-customized-metrics-views/">Amazon CloudWatch Dashboards</a> are a great way to monitor your AWS resources. During peak events when you are expecting high traffic, monitoring your AWS resources helps you stay ahead of any issues that might arise. You might want a customized and automated dashboard that can be used during a seasonal event, important releases, holidays, and other dates important to operations. Setting up a dashboard can be a repetitive process. A dashboard can be difficult to manage and keep up to date. In this blog post, we show you how to use tagging, the cross-account and cross-region functionality in Amazon CloudWatch, and a Lambda function triggered by <a href="https://aws.amazon.com/eventbridge/">Amazon EventBridge</a> to create a dashboard automatically.
+<a href="https://aws.amazon.com/blogs/aws/cloudwatch-dashboards-create-use-customized-metrics-views/">Amazon CloudWatch Dashboards</a> are a great way to monitor your AWS resources. During peak events when you are expecting high traffic, monitoring your AWS resources helps you stay ahead of any issues that may arise. You might want a customized and automated dashboard that can be used during a seasonal event, important releases, holidays, and other dates important to your operations. Setting up a dashboard can be a repetitive and time consuming process. A dashboard can be difficult to manage and keep up to date. In this blog post, we will discover how to use tagging, the cross-account and cross-region functionality in Amazon CloudWatch, and a Lambda function triggered by <a href="https://aws.amazon.com/eventbridge/">Amazon EventBridge</a> to generate a dashboard automatically from your tagged resources.
 <h2><strong>Solution overview </strong></h2>
 For purposes of this post, we have a monitoring account where the CloudWatch dashboard resides. We have accounts referred to as X, Y, and Z from which we collect data. Our objective is to have the CloudWatch dashboard contain aggregate metrics from all the accounts in the scope of the event. One dashboard in the monitoring account collects data from the other shared accounts. Any resources in the monitoring account can be included in the dashboard, too.
 
@@ -13,6 +13,7 @@ Lambda function out of the box will support monitoring the following services [E
 
 Figure 1: Solution architecture
 <h2><strong>Solution steps and deployment</strong></h2>
+The solution architecture above shows the following components and steps:
 <ol>
  	<li>In accounts X, Y, and Z, set up cross-account functionality in CloudWatch to share data with the monitoring account.</li>
  	<li>In the monitoring account, set up cross-account functionality in CloudWatch to access the shared data from accounts X, Y, and Z.</li>
@@ -193,17 +194,22 @@ In this blog post, we walked through the steps to configure Amazon CloudWatch to
 
 After the solution has been deployed and all the resources we want to monitor have been tagged, here are two example CloudWatch dashboards:
 
-<img class="alignnone size-full wp-image-15901" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/02/CWDashboardExample1-vertical.png" alt="CWDashboardExample1" width="1895" height="1877" />
+<img class="alignnone size-full wp-image-15901" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/02/CWDashboardExample1-vertical.png" alt="CloudWatch Dashboard Example1" width="1895" height="1877" />
 
 <em>Figure 2: Example dashboard</em>
 
-<img class="alignnone size-full wp-image-15902" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/02/CWDashboardExample2-vertical.png" alt="CWDashboardExample2" width="1889" height="1900" />
+<img class="alignnone size-full wp-image-15902" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/02/CWDashboardExample2-vertical.png" alt="CloudWatch Dashboard Example2" width="1889" height="1900" />
 
 <em>Figure 3: Second example dashboard</em>
 
 <hr />
 
 &nbsp;
+<h3>About the Authors</h3>
+<img class="alignleft wp-image-453 size-thumbnail" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/01/01/Salman-Ahmed.png" alt="" width="150" height="150" />
+
+&nbsp;
+
 
 ## Security
 
