@@ -178,31 +178,6 @@ After the solution has been deployed and all application stacks and resources we
 In this blog post, we showed you how to create the IAM policy that is required to retrieve details from the AWS Systems Manager Parameter Store to dynamically generate Amazon CloudWatch dashboards. This solution solves the problem of manually managing and updating a CloudWatch dashboards for application stacks in your landing zone. By using tags and the automation of EventBridge and Lambda, you can achieve observability automation at scale.
 <h3>About the authors</h3>
 <footer>
-<div class="blog-author-box">
-<div class="blog-author-image"><img class="aligncenter size-full wp-image-22597" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/08/03/Salman-Ahmed-Profile.jpg" alt="Salman Ahmed" width="169" height="208" /></div>
-<h3 class="lb-h4">Salman Ahmed</h3>
-Salman Ahmed is a Senior Technical Account Manager in AWS Enterprise Support. He enjoys working with customers to help them with design, implement, and support cloud infrastructure. He also has a passion for networking services. Salman uses his more than 10 years of experience to help customers with the adoption of AWS Transit Gateway and AWS Direct Connect.
-
-</div>
-</footer><footer>
-<div class="blog-author-box">
-<div class="blog-author-image"><img class="aligncenter wp-image-22720 size-full" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/08/04/Mike-Gomez-Profile.png" alt="Mike Gomez" width="780" height="780" /></div>
-<h3 class="lb-h4">Mike Gomez</h3>
-Mike Gomez is an Enterprise Support Lead in AWS Enterprise Support who helps customers achieve and maintain operational excellence. Mike has a passion for Reliability Engineering and IT Operations. With a background in Travel and Hospitality, Media and Entertainment, and Banking, he helps customers achieve their business goals through cross-industry innovation.
-
-</div>
-</footer><footer>
-<div class="blog-author-box">
-<div class="blog-author-image"><img class="aligncenter size-full wp-image-22599" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/08/03/Nikola-Bravo-Profile.jpg" alt="Nikola Bravo" width="167" height="210" /></div>
-<h3 class="lb-h4">Nikola Bravo</h3>
-Nikola Bravo is a Senior Cloud Architect in the AWS Professional Services, Private Equity team. With more than 15 years of working with Fortune 100 companies, hedge funds, banking, financial and private equity firms, Nikola is focused on delivering measurable business value through transformation, modernization, and digital innovation while successfully implementing large-scale, complex, and mission-critical strategic initiatives.
-
-</div>
-</footer><footer>
-<div class="blog-author-box">
-<div class="blog-author-image"><img class="aligncenter size-full wp-image-22600" src="https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2021/08/03/Andy-Cracchiolo-Profile.jpg" alt="Andy Cracchiolo" width="216" height="270" /></div>
-<h3 class="lb-h4">Andy Cracchiolo</h3>
-Andy Cracchiolo is a Cloud Infrastructure Architect with the AWS Professional Services team. With more than 15 years in IT infrastructure, Andy is an accomplished and results-driven IT professional. In addition to optimizing IT infrastructure, operations, and automation, Andy has a proven track record of analyzing IT operations, identifying inconsistencies, and implementing process enhancements that increase efficiency, reduce costs, and increase profits.
 
 </div>
 </footer>
