@@ -176,8 +176,7 @@ After the solution has been deployed and all application stacks and resources we
 
 <h2>Conclusion</h2>
 In this blog post, we showed you how to create the IAM policy that is required to retrieve details from the AWS Systems Manager Parameter Store to dynamically generate Amazon CloudWatch dashboards. This solution solves the problem of manually managing and updating a CloudWatch dashboards for application stacks in your landing zone. By using tags and the automation of EventBridge and Lambda, you can achieve observability automation at scale.
-<h3>About the authors</h3>
-<footer>
+
 
 </div>
 </footer>
